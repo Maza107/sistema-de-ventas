@@ -9,7 +9,7 @@ from reportlab.lib.pagesizes import letter
 def exportar_boleta(venta: Venta):
     c = canvas.Canvas("boleta.pdf", pagesize=letter)
     c.setFont("Helvetica-Bold", 24)
-    c.drawString(50, 720, "EMPRESA COMERCIAL VARGAS")
+    c.drawString(50, 720, "EMPRESA COMERCIAL SOLSITO ")
 
     c.setFont("Helvetica-Bold", 12)
     c.drawString(50, 650, "Cliente:")
