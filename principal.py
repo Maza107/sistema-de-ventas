@@ -37,18 +37,18 @@ def exportar_boleta(venta: Venta):
 def obtener_fecha_actual():
     global fecha_actual
     fecha_actual = date.today()
-    print(fecha_actual)
+    
 
 # CRUD CLIENTE
-data_clientes:list=[{"numero_documento":"1",
+data_clientes:list=[{"numero_documento":"123456789",
                      "razon_social":"Anthony Kelman Mamani Vargas",
                      "direccion":"Jr. Ayaviri 290",
                      "telefono":"913777376"},
-                     {"numero_documento":"00000000002",
+                     {"numero_documento":"987654321",
                      "razon_social":"Denis Wilber",
                      "direccion":"Jr. Tupac yupanqui 590",
                      "telefono":"997120432"},
-                     {"numero_documento":"00000000003",
+                     {"numero_documento":"00000001",
                      "razon_social":"Juan Carlos ",
                      "direccion":"Jr. Tupac yupanqui 790",
                      "telefono":"997120440"}]
@@ -239,7 +239,7 @@ def menu_texto():
     
     print("===============MENU===========")
     print("=========CRUD CLIENTE========")
-    print(obtener_fecha_actual())
+    
     print("1: para Insertar Cliente")
     print("2: para listar Cliente")
     print("3: para Buscar Cliente")
